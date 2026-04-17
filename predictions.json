@@ -1,0 +1,38 @@
+{
+  "description": "BTC贝叶斯预测记录数据库",
+  "version": "1.0",
+  "predictions": [
+    {
+      "date": "2026-04-16",
+      "current_price": 75061,
+      "prediction": {
+        "up": 0.72,
+        "sideways": 0.226,
+        "down": 0.054
+      },
+      "target_range": {
+        "up": [76000, 78000],
+        "sideways": [73000, 76000],
+        "down": [70000, 73000]
+      },
+      "key_events": [
+        "BTC突破$75,000，站稳50日EMA",
+        "CLARITY法案进入最后窗口期（通过概率63-66%）",
+        "Tether持仓97,141枚BTC，持续增持",
+        "Bitwise推出现货AVAX ETF",
+        "Hyperliquid未平仓量增长580%",
+        "香港Web3嘉年华（4月20-23日）"
+      ],
+      "risk_factors": [
+        "CLARITY法案立法失败风险",
+        "$70,000支撑跌破风险",
+        "政治博弈不确定性"
+      ],
+      "actual_result": null,
+      "actual_price": null,
+      "prediction_correct": null,
+      "notes": null
+    }
+  ],
+  "reviews": []
+}
