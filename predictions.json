@@ -32,6 +32,128 @@
       "actual_price": null,
       "prediction_correct": null,
       "notes": null
+    },
+    {
+      "date": "2026-04-17",
+      "current_price": 74944,
+      "prediction": {
+        "up": 0.45,
+        "sideways": 0.50,
+        "down": 0.05
+      },
+      "target_range": {
+        "up": [76000, 78000],
+        "sideways": [73000, 76000],
+        "down": [70000, 73000]
+      },
+      "key_events": [
+        "CLARITY法案投票进入最后时刻，白宫/SEC/CFTC全力支持",
+        "贝莱德大手笔买入4.5亿美元BTC/ETH",
+        "BTC ETF累计净流入超560亿美元",
+        "香港Web3嘉年华明日开幕（Vitalik、陈茂波出席）",
+        "BTC围绕$75,000震荡整理"
+      ],
+      "risk_factors": [
+        "CLARITY法案立法失败风险",
+        "银行业vs加密行业博弈不确定性",
+        "$70,000支撑跌破风险"
+      ],
+      "actual_result": null,
+      "actual_price": null,
+      "prediction_correct": null,
+      "notes": "重大利好消息密集，但存在不确定性，震荡概率较高"
+    },
+    {
+      "date": "2026-04-22",
+      "current_price": 77989,
+      "prediction": {
+        "up": 0.65,
+        "sideways": 0.30,
+        "down": 0.05
+      },
+      "target_range": {
+        "up": [80000, 85000],
+        "sideways": [75000, 78000],
+        "down": [72000, 75000]
+      },
+      "key_events": [
+        "BTC升破$78,000关口，日内涨幅+2.32%",
+        "Strategy斥资25.4亿美元增持34,164枚BTC",
+        "Vitalik香港Web3嘉年华披露以太坊5年路线图",
+        "CLARITY法案需在5月前完成关键表决（通过概率71%）",
+        "香港Web3嘉年华三大核心议题聚焦行业前沿"
+      ],
+      "risk_factors": [
+        "CLARITY法案立法失败风险",
+        "中期选举政治博弈不确定性",
+        "$75,000支撑跌破风险"
+      ],
+      "actual_result": null,
+      "actual_price": null,
+      "prediction_correct": null,
+      "notes": "突破$78,000关键阻力，机构增持信号强烈，上涨概率较高"
+    },
+    {
+      "date": "2026-04-24",
+      "current_price": 78280,
+      "prediction": {
+        "up": 0.55,
+        "sideways": 0.40,
+        "down": 0.05
+      },
+      "target_range": {
+        "up": [80000, 85000],
+        "sideways": [75000, 78000],
+        "down": [72000, 75000]
+      },
+      "key_events": [
+        "BTC逼近$80,000心理关口，7日涨幅+4.16%",
+        "CLARITY法案谈判进入最后阶段，仅剩2-3项争议条款",
+        "Kraken秘密提交IPO申请",
+        "Galaxy Research预测MicroStrategy BTC持仓将超越中本聪",
+        "加密行业与传统金融融合加速"
+      ],
+      "risk_factors": [
+        "CLARITY法案立法失败风险",
+        "$80,000心理关口阻力",
+        "中期选举政治博弈不确定性"
+      ],
+      "actual_result": null,
+      "actual_price": null,
+      "prediction_correct": null,
+      "notes": "蓄势待发，$80,000为关键阻力，CLARITY法案进展积极"
+    },
+    {
+      "date": "2026-04-25",
+      "current_price": 77548,
+      "prediction": {
+        "up": 0.50,
+        "sideways": 0.45,
+        "down": 0.05
+      },
+      "target_range": {
+        "up": [80000, 85000],
+        "sideways": [75000, 78000],
+        "down": [72000, 75000]
+      },
+      "key_events": [
+        "特斯拉披露Q1未出售BTC，仍持有11,509枚（约8.8亿美元）",
+        "CLARITY法案进入关键五周窗口期，若8月前不通过可能胎死腹中",
+        "Coinbase推出Agent.market AI代理应用商店，69,000个AI代理已上线",
+        "Coinbase报告：加密市场处于熊市或熊市后期阶段",
+        "35%欧洲投资者愿因加密服务转银行",
+        "Blockchain Capital拟募集7亿美元"
+      ],
+      "risk_factors": [
+        "CLARITY法案立法失败风险（关键五周窗口期）",
+        "市场处于熊市或熊市后期阶段",
+        "$75,000支撑跌破风险",
+        "中期选举政治博弈不确定性"
+      ],
+      "actual_result": null,
+      "actual_price": null,
+      "prediction_correct": null,
+      "notes": "震荡整理，特斯拉持仓稳定利好，但CLARITY法案时间紧迫，市场观望情绪浓厚"
     }
   ],
   "reviews": []
