@@ -28,10 +28,10 @@
         "$70,000支撑跌破风险",
         "政治博弈不确定性"
       ],
-      "actual_result": null,
-      "actual_price": null,
-      "prediction_correct": null,
-      "notes": null
+      "actual_result": "up",
+      "actual_price": 78246,
+      "prediction_correct": true,
+      "notes": "预测正确。一周后BTC收于$78,246，涨幅+4.25%，符合上涨判断。价格略超目标区间上限$78,000。"
     },
     {
       "date": "2026-04-17",
@@ -58,10 +58,10 @@
         "银行业vs加密行业博弈不确定性",
         "$70,000支撑跌破风险"
       ],
-      "actual_result": null,
-      "actual_price": null,
-      "prediction_correct": null,
-      "notes": "重大利好消息密集，但存在不确定性，震荡概率较高"
+      "actual_result": "up",
+      "actual_price": 77433,
+      "prediction_correct": false,
+      "notes": "预测偏差。预测震荡概率最高(50%)，实际涨幅+3.32%为上涨。上涨概率45%接近，但未准确判断方向。"
     },
     {
       "date": "2026-04-22",
@@ -154,7 +154,58 @@
       "actual_price": null,
       "prediction_correct": null,
       "notes": "震荡整理，特斯拉持仓稳定利好，但CLARITY法案时间紧迫，市场观望情绪浓厚"
+    },
+    {
+      "date": "2026-04-27",
+      "current_price": 79210,
+      "prediction": {
+        "up": 0.60,
+        "sideways": 0.35,
+        "down": 0.05
+      },
+      "target_range": {
+        "up": [80000, 85000],
+        "sideways": [77000, 80000],
+        "down": [72000, 75000]
+      },
+      "key_events": [
+        "BTC强势突破$79,000，逼近$80,000心理关口",
+        "4月涨幅达14.3%，有望创2024年末以来最佳月度表现",
+        "ETF近5天吸纳19,000枚BTC，机构资金强势回流",
+        "RWA链上总市值历史性突破$300亿大关",
+        "CLARITY法案预计本月参议院推进，5月全体表决",
+        "超百家加密公司联名敦促参议院推进CLARITY法案"
+      ],
+      "risk_factors": [
+        "$80,000心理关口阻力",
+        "CLARITY法案立法失败风险",
+        "市场仍处于熊市后期阶段",
+        "中期选举政治博弈不确定性"
+      ],
+      "actual_result": null,
+      "actual_price": null,
+      "prediction_correct": null,
+      "notes": "突破$79,000，技术面强劲，ETF资金回流，CLARITY法案进展积极，上涨概率较高"
     }
   ],
-  "reviews": []
+  "reviews": [
+    {
+      "date": "2026-04-27",
+      "period_start": "2026-04-16",
+      "period_end": "2026-04-23",
+      "total_predictions": 2,
+      "correct_predictions": 1,
+      "accuracy_rate": 0.50,
+      "up_accuracy": 0.50,
+      "down_accuracy": null,
+      "sideways_accuracy": null,
+      "analysis": "本周验证了2个预测：4月16日预测正确（预测上涨72%，实际涨幅+4.25%）；4月17日预测偏差（预测震荡50%，实际涨幅+3.32%为上涨）。模型在明确趋势判断上表现良好，但在震荡与上涨边界情况判断存在偏差。关键发现：当上涨概率与震荡概率接近时（如45% vs 50%），实际走势往往偏向上涨，说明模型可能低估了上涨动能。",
+      "lessons_learned": [
+        "当上涨概率与震荡概率接近时（差距<10%），应倾向于上涨判断",
+        "重大利好事件密集时，即使存在不确定性，上涨概率应适当上调",
+        "ETF资金流入、机构增持等事件对价格影响比预期更强",
+        "需要调整模型参数，提高对上涨动能的敏感度"
+      ]
+    }
+  ]
 }
