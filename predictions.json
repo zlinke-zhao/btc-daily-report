@@ -186,6 +186,38 @@
       "actual_price": null,
       "prediction_correct": null,
       "notes": "突破$79,000，技术面强劲，ETF资金回流，CLARITY法案进展积极，上涨概率较高"
+    },
+    {
+      "date": "2026-04-28",
+      "current_price": 77500,
+      "prediction": {
+        "up": 0.55,
+        "sideways": 0.40,
+        "down": 0.05
+      },
+      "target_range": {
+        "up": [80000, 85000],
+        "sideways": [75000, 78000],
+        "down": [72000, 75000]
+      },
+      "key_events": [
+        "BTC从$79,000高位回调至$77,500，技术性调整",
+        "MSCI决定保留Strategy在指数中，股价大涨6%",
+        "Etherealize发布ETH长期价格预测$250,000",
+        "日本或将在2028年推出首批加密ETF",
+        "Coinbase将上线黄金和白银永续期货交易",
+        "CLARITY法案谈判接近完成，仅剩2-3项争议条款"
+      ],
+      "risk_factors": [
+        "$80,000心理关口阻力",
+        "CLARITY法案立法失败风险",
+        "市场仍处于熊市后期阶段",
+        "回调可能延续"
+      ],
+      "actual_result": null,
+      "actual_price": null,
+      "prediction_correct": null,
+      "notes": "技术性回调，MSCI利好支撑，ETH预测提振市场情绪，震荡后有望再次上攻"
     }
   ],
   "reviews": [
