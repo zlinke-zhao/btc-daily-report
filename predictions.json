@@ -218,6 +218,38 @@
       "actual_price": null,
       "prediction_correct": null,
       "notes": "技术性回调，MSCI利好支撑，ETH预测提振市场情绪，震荡后有望再次上攻"
+    },
+    {
+      "date": "2026-04-29",
+      "current_price": 76600,
+      "prediction": {
+        "up": 0.50,
+        "sideways": 0.45,
+        "down": 0.05
+      },
+      "target_range": {
+        "up": [80000, 85000],
+        "sideways": [75000, 78000],
+        "down": [72000, 75000]
+      },
+      "key_events": [
+        "Strategy再次增持3,273枚BTC，总持仓突破818,000枚",
+        "特朗普表态不会让银行破坏加密货币法案",
+        "BTC从$79,000回调至$76,600，连续两日调整",
+        "Bitwise提交预测市场ETF申请",
+        "莱特币紧急修复零日漏洞",
+        "5月是CLARITY法案关键立法窗口期"
+      ],
+      "risk_factors": [
+        "$75,000支撑跌破风险",
+        "CLARITY法案立法失败风险",
+        "市场仍处于熊市后期阶段",
+        "连续回调可能延续"
+      ],
+      "actual_result": null,
+      "actual_price": null,
+      "prediction_correct": null,
+      "notes": "连续回调，Strategy增持支撑，特朗普表态利好，等待$75,000支撑确认后有望再次上攻"
     }
   ],
   "reviews": [
