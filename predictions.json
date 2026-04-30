@@ -250,6 +250,38 @@
       "actual_price": null,
       "prediction_correct": null,
       "notes": "连续回调，Strategy增持支撑，特朗普表态利好，等待$75,000支撑确认后有望再次上攻"
+    },
+    {
+      "date": "2026-04-30",
+      "current_price": 75800,
+      "prediction": {
+        "up": 0.45,
+        "sideways": 0.40,
+        "down": 0.15
+      },
+      "target_range": {
+        "up": [80000, 85000],
+        "sideways": [73000, 77000],
+        "down": [70000, 73000]
+      },
+      "key_events": [
+        "香港比特币和以太坊现货ETF今日正式上市交易",
+        "美联储维持利率3.50%-3.75%不变，连续三次按兵不动",
+        "现货比特币ETF今日净流出约1,698枚BTC",
+        "白宫预告比特币储备重大声明即将发布",
+        "捷克国家银行考虑将比特币纳入国家储备",
+        "BTC测试$75,000关键支撑位"
+      ],
+      "risk_factors": [
+        "$75,000支撑跌破风险",
+        "ETF资金持续流出风险",
+        "CLARITY法案立法失败风险",
+        "市场仍处于熊市后期阶段"
+      ],
+      "actual_result": null,
+      "actual_price": null,
+      "prediction_correct": null,
+      "notes": "关键支撑测试中，香港ETF上市利好，但ETF净流出压力，等待$75,000支撑确认"
     }
   ],
   "reviews": [
