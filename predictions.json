@@ -282,6 +282,38 @@
       "actual_price": null,
       "prediction_correct": null,
       "notes": "关键支撑测试中，香港ETF上市利好，但ETF净流出压力，等待$75,000支撑确认"
+    },
+    {
+      "date": "2026-05-01",
+      "current_price": 76600,
+      "prediction": {
+        "up": 0.50,
+        "sideways": 0.40,
+        "down": 0.10
+      },
+      "target_range": {
+        "up": [80000, 85000],
+        "sideways": [74000, 78000],
+        "down": [70000, 74000]
+      },
+      "key_events": [
+        "Bitcoin 2026大会落幕，Saylor喊出BTC目标$1000万",
+        "渣打银行大幅下调BTC目标价至$100,000",
+        "BTC从$75,800反弹至$76,600，$75,000支撑守住",
+        "行业叙事从挖矿转向AI，结构性迁徙正在进行",
+        "XRP突破BTC阻力位，分析师预测目标$10",
+        "5月是CLARITY法案关键立法窗口期"
+      ],
+      "risk_factors": [
+        "5月代币解锁带来的抛压",
+        "CLARITY法案立法失败风险",
+        "机构预测分化加剧",
+        "ETF资金持续流出风险"
+      ],
+      "actual_result": null,
+      "actual_price": null,
+      "prediction_correct": null,
+      "notes": "$75,000支撑守住，Bitcoin 2026大会提振情绪，但机构预测分化，震荡后有望再次上攻"
     }
   ],
   "reviews": [
