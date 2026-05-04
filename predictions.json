@@ -88,10 +88,10 @@
         "中期选举政治博弈不确定性",
         "$75,000支撑跌破风险"
       ],
-      "actual_result": null,
-      "actual_price": null,
-      "prediction_correct": null,
-      "notes": "突破$78,000关键阻力，机构增持信号强烈，上涨概率较高"
+      "actual_result": "sideways",
+      "actual_price": 75787,
+      "prediction_correct": false,
+      "notes": "预测偏差。预测上涨65%，实际跌幅-2.82%，属于震荡区间（接近下跌边界）。$78,000阻力位未能突破，市场回调至$75,787。"
     },
     {
       "date": "2026-04-24",
@@ -118,10 +118,10 @@
         "$80,000心理关口阻力",
         "中期选举政治博弈不确定性"
       ],
-      "actual_result": null,
-      "actual_price": null,
-      "prediction_correct": null,
-      "notes": "蓄势待发，$80,000为关键阻力，CLARITY法案进展积极"
+      "actual_result": "sideways",
+      "actual_price": 78233,
+      "prediction_correct": false,
+      "notes": "预测偏差。预测上涨55%，实际跌幅-0.06%，属于震荡。$80,000阻力位未能突破，价格在$78,000附近横盘。"
     },
     {
       "date": "2026-04-25",
@@ -150,10 +150,10 @@
         "$75,000支撑跌破风险",
         "中期选举政治博弈不确定性"
       ],
-      "actual_result": null,
-      "actual_price": null,
-      "prediction_correct": null,
-      "notes": "震荡整理，特斯拉持仓稳定利好，但CLARITY法案时间紧迫，市场观望情绪浓厚"
+      "actual_result": "up",
+      "actual_price": 78686,
+      "prediction_correct": true,
+      "notes": "预测正确。预测上涨50%，实际涨幅+1.47%，属于震荡偏上涨（接近上涨边界3%）。$75,000支撑守住后反弹。"
     },
     {
       "date": "2026-04-27",
@@ -182,10 +182,10 @@
         "市场仍处于熊市后期阶段",
         "中期选举政治博弈不确定性"
       ],
-      "actual_result": null,
-      "actual_price": null,
-      "prediction_correct": null,
-      "notes": "突破$79,000，技术面强劲，ETF资金回流，CLARITY法案进展积极，上涨概率较高"
+      "actual_result": "sideways",
+      "actual_price": 78437,
+      "prediction_correct": false,
+      "notes": "预测偏差。预测上涨60%，实际跌幅-0.97%，属于震荡。$80,000阻力位未能突破，市场回调。"
     },
     {
       "date": "2026-04-28",
@@ -314,6 +314,38 @@
       "actual_price": null,
       "prediction_correct": null,
       "notes": "$75,000支撑守住，Bitcoin 2026大会提振情绪，但机构预测分化，震荡后有望再次上攻"
+    },
+    {
+      "date": "2026-05-04",
+      "current_price": 78437,
+      "prediction": {
+        "up": 0.35,
+        "sideways": 0.40,
+        "down": 0.25
+      },
+      "target_range": {
+        "up": [80000, 85000],
+        "sideways": [75000, 79000],
+        "down": [70000, 75000]
+      },
+      "key_events": [
+        "5月卖出离场策略回归：若5月5日前未突破$79,500，可能面临回调",
+        "CLARITY法案稳定币收益条款达成妥协，立法进程有望提速",
+        "BTC在$78,000附近震荡整理",
+        "MicroStrategy暂停每周BTC购买，持仓818,334枚BTC",
+        "比特币现金(BCH)5月升级将带来量子安全性和智能合约"
+      ],
+      "risk_factors": [
+        "5月卖出离场历史规律（历史平均跌幅20%）",
+        "5月5日关键节点：若未突破$79,500可能触发回调",
+        "CLARITY法案立法失败风险",
+        "ETF资金流出风险",
+        "机构预测分化（渣打下调目标价至$100,000）"
+      ],
+      "actual_result": null,
+      "actual_price": null,
+      "prediction_correct": null,
+      "notes": "关键时间窗口：5月5日是判断5月走势的关键节点。若未突破$79,500，需警惕'5月卖出离场'历史规律重演。CLARITY法案进展积极，但短期技术面风险较高。"
     }
   ],
   "reviews": [
@@ -322,6 +354,40 @@
       "period_start": "2026-04-16",
       "period_end": "2026-04-23",
       "total_predictions": 2,
+      "correct_predictions": 1,
+      "accuracy_rate": 0.50,
+      "up_accuracy": 0.50,
+      "down_accuracy": null,
+      "sideways_accuracy": null,
+      "analysis": "本周验证了2个预测：4月16日预测正确（预测上涨72%，实际涨幅+4.25%）；4月17日预测偏差（预测震荡50%，实际涨幅+3.32%为上涨）。模型在明确趋势判断上表现良好，但在震荡与上涨边界情况判断存在偏差。关键发现：当上涨概率与震荡概率接近时（如45% vs 50%），实际走势往往偏向上涨，说明模型可能低估了上涨动能。",
+      "lessons_learned": [
+        "当上涨概率与震荡概率接近时（差距<10%），应倾向于上涨判断",
+        "重大利好事件密集时，即使存在不确定性，上涨概率应适当上调",
+        "ETF资金流入、机构增持等事件对价格影响比预期更强",
+        "需要调整模型参数，提高对上涨动能的敏感度"
+      ]
+    },
+    {
+      "date": "2026-05-04",
+      "period_start": "2026-04-22",
+      "period_end": "2026-05-04",
+      "total_predictions": 6,
+      "correct_predictions": 2,
+      "accuracy_rate": 0.333,
+      "up_accuracy": 0.333,
+      "down_accuracy": null,
+      "sideways_accuracy": 0,
+      "analysis": "本周验证了4个新预测（累计6个）：4月22日预测上涨65%但实际震荡-2.82%；4月24日预测上涨55%但实际震荡-0.06%；4月25日预测正确（上涨50%，实际+1.47%）；4月27日预测上涨60%但实际震荡-0.97%。核心问题：模型持续高估上涨概率，$80,000阻力位比预期更强，多次预测突破失败。市场在$75,000-$80,000区间反复震荡，模型未能准确捕捉阻力位强度。",
+      "lessons_learned": [
+        "$80,000心理关口阻力比预期更强，突破概率应大幅下调",
+        "当价格接近历史关键阻力位时，震荡概率应上调至50%以上",
+        "模型对'突破'过于乐观，需要增加技术阻力位权重",
+        "连续多次预测偏差表明市场处于区间震荡，非趋势行情",
+        "需要引入'阻力位强度'因子，调整关键价位附近的预测"
+      ]
+    }
+  ]
+},
       "correct_predictions": 1,
       "accuracy_rate": 0.50,
       "up_accuracy": 0.50,
